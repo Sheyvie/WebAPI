@@ -22,9 +22,8 @@ app.get("/api", (req, res) => {
   const currentUTCTime = new Date().toISOString().replace(/\.\d{3}Z$/, "Z");
 
   // Construct the GitHub file URL and GitHub repo URL (replace with your actual URLs)
-  const githubFileURL =
-    "https://github.com/username/repo/blob/main/file_name.ext";
-  const githubRepoURL = "https://github.com/username/repo";
+  const githubFileURL = "https://github.com/Sheyvie/WebAPI/blob/master/api.js";
+  const githubRepoURL = "https://github.com/Sheyvie/WebAPI";
 
   // Create the JSON response object
   const jsonResponse = {
